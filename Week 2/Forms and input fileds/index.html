@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input forms</title>
+    </head>
+    
+    <body>
+        <!-- creating a form  -->
+        <form action="/registration" method="POST">
+        <!-- Actions specifies the URL or path that the form should submit the request to. 
+        When the action attribute is not specified, it submits the request to the same path as the current web page. -->
+        <!-- There is also the FORM method, with the FORM method you can specify the HTTP method to use for the HTTP request. 
+        There are two HTTP methods to submit the form data, GET and POST. Remember the GET HTTP method retrieves information from the server. 
+        The POST HTTP method sends data to the server. When a user submits a form, one of these HTTP methods is used. -->
+         
+            <!-- Adding a label before the text field -->
+            <label for="username">Username: </label><br>
+
+            <!-- Adding text field to a form. It displays text field to a web page -->
+            <input type="text" name="username"/><br>
+
+            <!-- Adding a label before the text field -->
+            <label for="password">Password: </label><br>
+
+            <!-- Adding a password filed that is specific for passwords -->
+            <input type="password"/><br>
+
+            <!-- Adding submiting button -->
+            <input type="submit"><br><br>
+            
+        </form>
+
+        <!-- Adding checkboxes with labels -->
+        <input type="checkbox" name="dog" value="Dog">
+        <label for="dog"> I am a dog</label><br>
+        <input type="checkbox" name="cat" value="Cat">
+        <label for="cat"> I am a cat</label><br><br>
+
+        <!-- Adding radio buttons with labels -->
+        <input type="radio" name="right" value="Right">
+        <label for="right"> I am right handed</label><br>
+        <input type="radio" name="left" value="Left">
+        <label for="left"> I am left handed</label><br><br>
+
+        <!-- Adding other inputs with labels: numbers, email, file -->
+        <label for="age">Number input</label><br>
+        <input type="number" name="age"><br>
+        <label for="email">Email input</label><br>
+        <input type="email", name="email"><br>
+        <label for="file">File input</label><br>
+        <input type="file" name="file"><br>
+
+        <!-- Adding multiline text area -->
+        <label for="multiline">Multiline input</label><br>
+        <textarea name="multiline" rows="5"></textarea><br>
+
+        <!-- Drop-down list -->
+        <select name="food">
+            <option value="chocolate">Chocolate</option>
+            <option value="ice_cream">Ice Cream</option>
+        </select>
+
+    </body>
+</html>
