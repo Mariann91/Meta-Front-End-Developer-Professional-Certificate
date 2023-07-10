@@ -1,0 +1,6 @@
+/* h1 is Element type selector that 
+selects all h1 elements in the html file */
+
+h1 {
+    color: purple;
+}
