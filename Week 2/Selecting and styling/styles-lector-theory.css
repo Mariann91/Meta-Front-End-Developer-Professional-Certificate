@@ -1,0 +1,19 @@
+
+/* h1 Selector - shows which elements will be affected by css code */
+/* color is property
+grey is the value of the property */
+/* Properties and values are located in the declaration blockquote
+between {} */
+
+h1 {
+    color: gray;
+}
+
+/* Property and value  */
+
+h1 {
+    /* color changes text color */
+    color: blue;
+    /* background-color changes background color */
+    background-color: grey;
+}
