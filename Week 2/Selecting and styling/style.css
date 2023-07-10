@@ -4,3 +4,8 @@ selects all h1 elements in the html file */
 h1 {
     color: purple;
 }
+
+/* Selects the element with set id */
+#heading1 {
+    color: green;
+}
